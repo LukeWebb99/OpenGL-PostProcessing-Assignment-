@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shader">
+      <UniqueIdentifier>{eab0d71d-5cdc-4c51-b6f6-62e6b5509103}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OmniShadowMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OmniShadowMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\BRDFShaderFrag.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\BRDFShaderVert.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\DirectionShadowMapFrag.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\DirectionShadowMapVert.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\EquirectangularToCubemapFrag.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\EquirectangularToCubemapVert.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\FlatShadingFrag.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\Frag.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\IrradianceConvolutionFrag.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\OmniShadowMapShaderFrag.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\OmniShadowMapShaderGeom.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\OmniShadowMapShaderVert.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\PrefilterFrag.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\QuadShaderFrag.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\QuadShaderVert.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\SkyboxFrag.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\SkyboxVert.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Shaders\Vertex.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
